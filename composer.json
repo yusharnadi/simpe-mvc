@@ -1,0 +1,30 @@
+{
+    "name": "yusharnadi/simple-mvc",
+    "description": "Simple MVC php app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yusharnadi\\SimpleMvc\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yusharnadi\\SimpleMvc\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yusharnadi",
+            "email": "yust.44@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit --configuration phpunit.xml"
+    }
+}
